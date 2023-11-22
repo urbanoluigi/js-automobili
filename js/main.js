@@ -12,4 +12,16 @@ let automobili = [
     {marca:"audi", modello:"a4", alimentazione:"benzina" },
     {marca:"tesla", modello:"model3", alimentazione:"elettrica" },
 
-]
+];
+
+//Dividi le automobili in 3 array separati in base al tipo di alimentazione:
+/*
+.nel primo array solo le auto a benzina,
+.nel secondo solo le auto a diesel,
+.nel terzo il resto delle auto.*/
+
+
+let autobenzina = [];
+let autodiesel = [];
+let altreauto = [];
+
