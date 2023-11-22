@@ -25,3 +25,22 @@ let autobenzina = [];
 let autodiesel = [];
 let altreauto = [];
 
+//ciclo foreach per mettere le auto negli array giusti
+
+automobili.forEach((auto) => {
+    if (auto.alimentazione === "benzina") {
+        autobenzina.push(auto);
+    } else if (auto.alimentazione === "diesel") {
+        autodiesel.push(auto);
+    } else {
+        altreauto.push(auto);
+    }
+});
+
+//stampa degli array separati
+
+console.log(autobenzina);
+
+console.log(autodiesel);
+
+console.log(altreauto);
